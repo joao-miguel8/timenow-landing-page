@@ -1,13 +1,7 @@
 .header-nav {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    margin: 24px 60px 0 60px;
     font-family: var(--ff);
-}
-
-.header-nav-left__logo {
-    border: 1px solid orange;
 }
 
 .header-nav-left-container {
@@ -19,7 +13,7 @@
 
 .header-nav-left__menu {
     display: flex;
-    gap: 8px;
+    gap: 12px;
     align-items: center;
     text-decoration: none;
     font-weight: 300;
@@ -39,4 +33,5 @@
     color: var(--textColor02);
     padding: 14px;
     border-radius: 2px;
+    cursor: pointer;
 }
