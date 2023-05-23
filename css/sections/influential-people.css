@@ -1,0 +1,39 @@
+.influential-people {
+  border: 1px solid red;
+  display: flex;
+}
+
+.influential-people-left-side-content,
+.influential-people-text-content {
+  flex: 1;
+}
+
+.influential-people-left-side-content h3{
+  color: var(--textColor03);
+  font-family: var(--ff);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 0 0 10px 0;
+}
+
+.influential-people-left-side-content-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: start;
+}
+
+.influential-people-left-side-content-list__person {
+max-width: 24px;
+}
+
+.influential-people-left-side-content-list__person img {
+  max-width: 100%;
+}
+
+.influential-people-text-content p {
+  font-size: .8rem;
+  line-height: 1.4rem;
+  font-family: var(--ff);
+  font-weight: 300;
+}

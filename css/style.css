@@ -1,6 +1,8 @@
 @import url("../css/sections/header.css");
 @import url("../css/sections/hero.css");
 
+@import url("../css/sections/influential-people.css");
+
 :root {
     --ff: "Inter", sans-serif;
     --buttonColor01: #1c1b66;
