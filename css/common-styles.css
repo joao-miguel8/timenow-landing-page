@@ -1,0 +1,11 @@
+
+
+.button__style {
+  background: var(--buttonColor01);
+  color: var(--textColor02); 
+  border-radius: 2px;
+  padding: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: .9rem;
+}

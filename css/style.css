@@ -1,7 +1,8 @@
 @import url("../css/sections/header.css");
 @import url("../css/sections/hero.css");
-
 @import url("../css/sections/influential-people.css");
+@import url("../css/sections/features-section.css");
+
 
 :root {
     --ff: "Inter", sans-serif;
@@ -12,4 +13,6 @@
     --textColor01: #151515;
     --textColor02: #ffffff;
     --textColor03: #181554;
+    --categoriesTextColor: #1b3dc5;
+    --headingColor01: #235549;
 }

@@ -1,0 +1,75 @@
+@import url("../sections/influential-people.css");
+
+.features-section {
+  background: var(--bg03);
+  font-family: var(--ff);
+  display: flex;
+}
+
+/* LEFT SIDE SECTION */
+
+.features-section-unified-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.features-section-unified-dashboard span {
+color: var(--categoriesTextColor);
+font-weight: 500;
+font-size: .8rem;
+}
+
+.features-section-unified-dashboard h3 {
+  color: var(--headingColor01);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.features-section-unified-dashboard p {
+  font-size: .9rem;
+  line-height: 1.2rem;
+  font-weight: 200;
+}
+
+.features-section-unified-dashboard a {
+  align-self: start;
+}
+
+/* -------------------- */
+
+/* RIGHT SIDE SECTION */
+
+.features-section-enhanced-analytics {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.features-section-enhanced-analytics span {
+color: var(--categoriesTextColor);
+font-weight: 500;
+font-size: .8rem;
+}
+
+.features-section-enhanced-analytics h3 {
+  color: var(--headingColor01);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.features-section-enhanced-analytics p {
+  font-size: .9rem;
+  line-height: 1.2rem;
+  font-weight: 200;
+}
+
+.features-section-enhanced-analytics a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--textColor01);
+  font-size: .9rem;
+}
+.features-section-enhanced-analytics a img {
+  max-width: .7rem;
+}
