@@ -11,7 +11,8 @@
 .features-section-unified-dashboard {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: start;
+  gap: 12px;
 }
 
 .features-section-unified-dashboard span {
@@ -42,7 +43,8 @@ font-size: .8rem;
 .features-section-enhanced-analytics {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: start;
+  gap: 12px;
 }
 
 .features-section-enhanced-analytics span {
@@ -64,7 +66,6 @@ font-size: .8rem;
 
 .features-section-enhanced-analytics a {
   display: flex;
-  align-items: center;
   gap: 6px;
   text-decoration: none;
   color: var(--textColor01);

@@ -1,0 +1,51 @@
+@import url("../common-styles.css");
+
+.footer-links-form-wrapper {
+  display: flex;
+  font-family: var(--ff);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.footer-links h4 {
+font-size: .8rem;
+font-weight: 700;
+margin: 0 0 6px 0;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--textColor04);
+  font-weight: 400;
+  font-size: .8rem;
+}
+
+.footer-email-form {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.footer-email-form form {
+  border: .5px solid #333333;
+  display: flex;
+  gap: 4px;
+  min-height: 40px;
+  padding: 2px;
+}
+
+.footer-email-form input {
+  border-style: none;
+  margin: 0 4px;
+  outline: none;
+}
