@@ -1,13 +1,18 @@
 @import url("../common-styles.css");
 
+footer {
+    padding: 40px;
+}
+
 .footer-links-form-wrapper {
   display: flex;
   font-family: var(--ff);
+  gap: 10px;
 }
 
 .footer-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex: 1;
 }
 
@@ -34,6 +39,7 @@ margin: 0 0 6px 0;
   display: flex;
   flex: 1;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-email-form form {

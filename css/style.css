@@ -3,6 +3,7 @@
 @import url("../css/sections/influential-people.css");
 @import url("../css/sections/features-section.css");
 @import url("../css/sections/footer.css");
+/* @import url("../common-styles.css"); */
 
 :root {
     --ff: "Inter", sans-serif;
@@ -16,4 +17,9 @@
     --textColor04: #717171;
     --categoriesTextColor: #1b3dc5;
     --headingColor01: #235549;
+}
+
+
+.header-nav-left__menu a:hover {
+background: red;
 }

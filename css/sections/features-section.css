@@ -4,6 +4,9 @@
   background: var(--bg03);
   font-family: var(--ff);
   display: flex;
+  padding: 40px 80px;
+  justify-content: space-evenly;
+  gap: 22px;
 }
 
 /* LEFT SIDE SECTION */
@@ -11,7 +14,7 @@
 .features-section-unified-dashboard {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-evenly;
   gap: 12px;
 }
 
@@ -43,7 +46,7 @@ font-size: .8rem;
 .features-section-enhanced-analytics {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-evenly;
   gap: 12px;
 }
 
