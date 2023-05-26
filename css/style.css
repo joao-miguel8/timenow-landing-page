@@ -1,9 +1,15 @@
-@import url("../css/sections/header.css");
-@import url("../css/sections/hero.css");
-@import url("../css/sections/influential-people.css");
-@import url("../css/sections/features-section.css");
-@import url("../css/sections/footer.css");
-/* @import url("../common-styles.css"); */
+/* COMMON STYLES: */
+@import url("../css/components/shared-components/header.css");
+@import url("../css/components/shared-components/footer.css");
+@import url("../css/components/shared-components/buttons.css");
+
+
+/* HOMEPAGE STYLES: */
+@import url("../css/components/homepage/hero.css");
+@import url("../css/components/homepage/influential-people.css");
+@import url("../css/components/homepage/features-section.css");
+
+
 
 :root {
     --ff: "Inter", sans-serif;
@@ -20,6 +26,3 @@
 }
 
 
-.header-nav-left__menu a:hover {
-background: red;
-}
