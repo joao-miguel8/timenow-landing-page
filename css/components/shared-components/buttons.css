@@ -9,3 +9,6 @@
   font-size: .9rem;
 }
 
+.button__style:hover{
+background: rgb(86, 209, 215);
+}

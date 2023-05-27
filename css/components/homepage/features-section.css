@@ -3,7 +3,7 @@
   background: var(--bg03);
   font-family: var(--ff);
   display: flex;
-  padding: 40px 80px;
+  padding: 40px 40px;
   justify-content: space-evenly;
   gap: 22px;
 }
@@ -75,4 +75,12 @@ font-size: .8rem;
 }
 .features-section-enhanced-analytics a img {
   max-width: .7rem;
+}
+
+/*<<<<<< Media-Queries >>>>>>> */
+
+@media (max-width: 700px) {
+  .features-section {
+  flex-direction: column;
+}
 }
