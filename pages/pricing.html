@@ -4,9 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+   <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- js -->
+        <script src="../js/script.js" defer></script>
+  <title>pricing</title>
 </head>
 <body>
-  
+<header>
+            <nav class="header-nav">
+                <div class="header-nav-left-container">
+                    <a href="#" class="header-nav-left__logo"><img src="../Assets/Logo.svg" alt="" /></a>
+                    <ul class="header-nav-left__menu">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <ul class="header-nav__menu-mobile">
+                    <li>
+                        <a href="#"><img src="../Assets/Hamburger Menu.svg" alt="mobile-menu" /></a>
+                    </li>
+                </ul>
+                <button class="header-nav-scheduling__button button__style">Start Scheduling</button>
+                <button class="mobile-menu"><img src="../Assets/Hamburger Menu.svg" alt="mobile-menu"></button>
+            </nav>
+</header>
+<section class="flexible-plans">
+  <div class="flexible-plans__description-content">
+    <h2>Flexible Plans for Everyone</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, consectetur dolore. Minima quos repellat sapiente mollitia velit ipsa.</p>
+    <div class="flexible-plans__payment-type-toggle">
+      <span>Billed Monthly</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+      <span>Billed Yearly</span>
+    </div>
+  </div>
+</section>
+
 </body>
 </html>

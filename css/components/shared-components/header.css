@@ -1,11 +1,12 @@
 
 nav {
-padding: 10px 40px;
+padding: 18px 40px;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: var(--ff);
 }
 
@@ -33,4 +34,27 @@ padding: 10px 40px;
     display: none;
 }
 
+.mobile-menu {
+display: none;  
+} 
 
+/* <<<<<<<<< MEDIA QUERIES >>>>>>>>>> */
+
+@media(max-width: 700px) {
+
+/* hamburger menu icon */
+.mobile-menu {
+    display: inline-block;
+    background: none;
+    cursor: pointer;
+} 
+
+.header-nav-left__menu {
+    display: none;
+}
+
+.header-nav-scheduling__button {
+    display: none;
+}
+
+}

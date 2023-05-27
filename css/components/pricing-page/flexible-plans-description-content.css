@@ -1,0 +1,87 @@
+
+.flexible-plans {
+  border: 1px solid red;
+  display: flex;
+  /* flex-direction: column; */
+  font-family: var(--ff);
+}
+
+.flexible-plans__description-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.flexible-plans__description-content h2{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.flexible-plans__description-content p{
+  font-size: .9rem;
+  line-height: 1.2rem;
+}
+
+/* <<<< PAYMENT TOGGLE >>>> */
+
+.flexible-plans__payment-type-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flexible-plans__payment-type-toggle span{
+font-size: .9rem;
+}
+
+/* the main slider container */
+.switch {
+  display: inline-block;
+  width: 63px;
+  height: 36px;
+  position: relative;
+}
+
+/* hide the default html checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: var(--buttonColor01);
+  transition: .4s;
+  border-radius: 24px;
+}
+/* inner slider circular button */
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 5px;
+  bottom: 5px;
+  background: #ffffff;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+/* slider if toggled */
+.switch input:checked + .slider {
+  background: #13c6da;
+}
+.switch input:focus .slider {
+  box-shadow: 0 0 4px #333333;
+}
+
+/* animation to move inner circle */
+.switch input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}

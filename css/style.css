@@ -5,9 +5,13 @@
 
 
 /* HOMEPAGE STYLES: */
-@import url("../css/components/homepage/hero.css");
-@import url("../css/components/homepage/influential-people.css");
-@import url("../css/components/homepage/features-section.css");
+@import url("../css/components/home-page/hero.css");
+@import url("../css/components/home-page/influential-people.css");
+@import url("../css/components/home-page/features-section.css");
+
+
+/* PRICING PAGE: */
+@import url("../css/components/pricing-page/flexible-plans-description-content.css");
 
 
 
