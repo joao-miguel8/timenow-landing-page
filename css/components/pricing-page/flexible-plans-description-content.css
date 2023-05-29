@@ -38,6 +38,8 @@ font-size: .9rem;
   width: 63px;
   height: 36px;
   position: relative;
+  border-radius: 24px;
+  overflow: hidden;
 }
 
 /* hide the default html checkbox */
@@ -54,7 +56,6 @@ font-size: .9rem;
   inset: 0;
   background: var(--buttonColor01);
   transition: .4s;
-  border-radius: 24px;
 }
 /* inner slider circular button */
 .slider::before {
