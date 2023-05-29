@@ -1,0 +1,78 @@
+
+.cards-container {
+  display: flex;
+  font-family: var(--ff);
+  gap: 12px;
+  padding: 0 40px;
+}
+
+.cards-container__card {
+  border: .5px solid var(--textColor04);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+
+.card__cost {
+  display: flex;
+  align-items: end;
+}
+
+.card__cost h5 {
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+.card__cost span {
+font-size: .8rem;
+color: var(--textColor04);
+}
+
+.divider {
+  max-width: 100%;
+  border: .5px solid #cacaca;
+}
+
+
+.card_features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cards-container__card p {
+  font-size: .8rem;
+  line-height: 1.2rem;
+}
+
+.card__feature {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: .8rem;
+  gap: 8px;
+}
+
+.card__subscribe-button {
+border-radius: 6px;
+font-size: .9rem;
+}
+
+
+/* <<<<<<< Media queries >>>>>> */
+
+
+@media (max-width:700px) {
+  
+  main {
+    padding: 20px;
+  }
+
+  .cards-container {
+  display: flex;
+  flex-direction: column;
+}
+}

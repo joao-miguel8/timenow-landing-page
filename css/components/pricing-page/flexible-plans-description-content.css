@@ -1,36 +1,34 @@
 
-.flexible-plans {
-  border: 1px solid red;
-  display: flex;
-  /* flex-direction: column; */
-  font-family: var(--ff);
-}
-
-.flexible-plans__description-content {
+.flexible-plans-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 20px;
+  font-family: var(--ff);
+  margin: 40px 0 40px 0;
 }
-.flexible-plans__description-content h2{
+.flexible-plans-content h2{
   font-size: 2rem;
   font-weight: 600;
 }
-.flexible-plans__description-content p{
+
+.flexible-plans-content p{
   font-size: .9rem;
   line-height: 1.2rem;
+  max-width: 500px;
+  font-weight: 300;
 }
 
 /* <<<< PAYMENT TOGGLE >>>> */
 
-.flexible-plans__payment-type-toggle {
+.flexible-plans-content__payment-type-toggle {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.flexible-plans__payment-type-toggle span{
+.flexible-plans-content__payment-type-toggle span{
 font-size: .9rem;
 }
 
